@@ -1,0 +1,85 @@
+.container {
+  max-width: 1100px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.search-form {
+  display: flex;
+  gap: 16px;
+  background-color: #3b82f6;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 7px 15px;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+.box {
+  flex-direction: column;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.search-button {
+  padding-right: 20px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.repo-list {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.repo-item {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.repo-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.repo-details p {
+  margin: 8px 0;
+}
+
+.vercel-link {
+  color: #1d4ed8;
+  text-decoration: underline;
+  cursor: pointer;
+}
